@@ -1,0 +1,218 @@
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+ 
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.gameDraw {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    width: 800px;
+    background-color: aqua;
+}
+
+
+.sky{
+    width:40px;
+    height: 40px;
+  
+    
+}
+
+.cloud{
+    width:40px;
+    height: 40px;
+    background-color: white;
+
+}
+
+.ground{
+    width:40px;
+    height: 40px;
+    background: url(/assets/images/ground.png) ;
+    background-size: cover;
+    background-position: center center;
+    
+    
+   
+}
+
+.grass{
+    width:40px;
+    height: 40px;
+    background: url(/assets/images/tree.png);
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.stone{
+    width:40px;
+    height: 40px;
+    background: url(/assets/images/stone.png);
+    background-size: cover;
+    background-position: center center;
+ 
+   
+
+   
+}
+
+.wood{
+    width:40px;
+    height: 40px;
+    background: url(/assets/images/wood.png);
+    background-size: cover;
+    background-position: center center;
+  
+}
+
+.grassGround{
+    width:40px;
+    height:40px;
+    background: url(/assets/images/ground-grass.png);
+    background-size: cover;
+    background-position: center center;
+    
+   
+   
+}
+
+
+
+.pixkaxe{
+    background-image: url(/assets/images/pixkaxe.png);
+    background-size: cover;
+    background-position: center center;
+    width:80px;
+    height: 80px;
+    background-color:gray;
+    margin: 20px 0;
+
+}
+
+.axe{
+    background: url(/assets/images/axe.png);
+    background-size: cover;
+    background-position: center center;
+    width:80px;
+    height: 80px;
+    background-color:gray;
+  
+}
+.shovel{
+    background: url(/assets/images/shovel.png);
+    background-size: cover;
+    background-position: center center;
+    width:80px;
+    height: 80px;
+    background-color:gray;
+
+}
+
+.clearDiv{
+    visibility: hidden;
+}
+
+
+.showDiv{
+    visibility: visible;
+}
+
+
+
+.ground1{
+    background-size: cover;
+    background-position: center center;
+    width:80px;
+    height: 80px;
+    border: 4px solid black;
+    margin-top:  15px;
+    margin-bottom: 5px;
+    background: url(/assets/images/ground.png);
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.grassGround1{
+    background-size: cover;
+    background-position: center center;
+    width:80px;
+    height: 80px;
+    border: 4px solid black;
+    margin-bottom: 5px;
+    background: url(/assets/images/ground-grass.png);
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grass1{
+    background-size: cover;
+    background-position: center center;
+    width:80px;
+    height: 80px;
+    border: 4px solid black;
+    margin-bottom: 5px;
+    background: url(/assets/images/tree.png);
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.wood1{
+    background-size: cover;
+    background-position: center center;
+    width:80px;
+    height: 80px;
+    border: 4px solid black;
+    margin-bottom: 5px;
+    background: url(/assets/images/wood.png);
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.stone1{
+    background-size: cover;
+    background-position: center center;
+    width:80px;
+    height: 80px;
+    border: 4px solid black;
+    margin-bottom: 5px;
+    background: url(/assets/images/stone.png);
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
